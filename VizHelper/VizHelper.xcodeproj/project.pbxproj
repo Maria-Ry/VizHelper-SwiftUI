@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		E4457D222EA7FEB6005397C8 /* VizHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457D212EA7FEB6005397C8 /* VizHelperApp.swift */; };
 		E4457D302EA80A3E005397C8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457D2F2EA80A3E005397C8 /* Models.swift */; };
+		E4457D322EA9582C005397C8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457D312EA9582C005397C8 /* APIClient.swift */; };
+		E4457D342EA95A96005397C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457D332EA95A96005397C8 /* ContentView.swift */; };
+		E4457D372EA96123005397C8 /* Preview Content.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4457D362EA96123005397C8 /* Preview Content.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4457D1E2EA7FEB6005397C8 /* VizHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VizHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4457D212EA7FEB6005397C8 /* VizHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VizHelperApp.swift; sourceTree = "<group>"; };
 		E4457D2F2EA80A3E005397C8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E4457D312EA9582C005397C8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		E4457D332EA95A96005397C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4457D352EA95F38005397C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4457D362EA96123005397C8 /* Preview Content.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Content.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +54,30 @@
 		E4457D202EA7FEB6005397C8 /* VizHelper */ = {
 			isa = PBXGroup;
 			children = (
+				E4457D392EA962DB005397C8 /* Preview Content */,
+				E4457D382EA962CD005397C8 /* Resources */,
+				E4457D352EA95F38005397C8 /* Info.plist */,
 				E4457D212EA7FEB6005397C8 /* VizHelperApp.swift */,
 				E4457D2F2EA80A3E005397C8 /* Models.swift */,
+				E4457D312EA9582C005397C8 /* APIClient.swift */,
+				E4457D332EA95A96005397C8 /* ContentView.swift */,
 			);
 			path = VizHelper;
+			sourceTree = "<group>";
+		};
+		E4457D382EA962CD005397C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4457D392EA962DB005397C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4457D362EA96123005397C8 /* Preview Content.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4457D372EA96123005397C8 /* Preview Content.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +151,8 @@
 			files = (
 				E4457D222EA7FEB6005397C8 /* VizHelperApp.swift in Sources */,
 				E4457D302EA80A3E005397C8 /* Models.swift in Sources */,
+				E4457D342EA95A96005397C8 /* ContentView.swift in Sources */,
+				E4457D322EA9582C005397C8 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +289,7 @@
 				DEVELOPMENT_TEAM = 9BVQAP8QBV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VizHelper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +319,7 @@
 				DEVELOPMENT_TEAM = 9BVQAP8QBV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VizHelper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
